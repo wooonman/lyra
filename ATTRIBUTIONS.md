@@ -33,6 +33,7 @@
 
    <!-- Note: lyra uses FFmpeg for audio decoding/encoding. Make sure to build without --enable-gpl
         to stay on LGPL if you're distributing. -->
+   <!-- Personal note: I verified this builds fine with LGPL on Ubuntu 22.04 using the apt ffmpeg package -->
 
    ```
    # License
@@ -65,10 +66,4 @@
        - `signature_lookup.c`
        - `vf_blackframe.c`
        - `vf_boxblur.c`
-       - `vf_colormatrix.c`
-       - `vf_cover_rect.c`
-       - `vf_cropdetect.c`
-       - `vf_delogo.c`
-       - `vf_eq.c`
-       - `vf_find_rect.c`
-       - `vf
+       - 
