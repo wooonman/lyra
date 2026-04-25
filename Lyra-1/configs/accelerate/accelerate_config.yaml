@@ -6,9 +6,9 @@ downcast_bf16: 'no'
 gpu_ids: all
 machine_rank: 0
 main_training_function: main
-mixed_precision: 'no'
+mixed_precision: bf16  # using bf16 for better memory efficiency on my A100s
 num_machines: 1
-num_processes: 8
+num_processes: 4  # reduced from 8 to match my local setup (4 GPUs)
 rdzv_backend: static
 same_network: true
 tpu_env: []
